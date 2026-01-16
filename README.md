@@ -53,10 +53,68 @@ git clone https://github.com/yourusername/school-management-backend.git
 cd school-management-backend
 ```
 
+2️⃣ Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install FastAPi uvicorn sqlalchemy
+
+4️⃣ Run the application
+uvicorn app.main:app --reload
+
+📘 API Documentation
+
+Once the server is running, open your browser and visit:
+
+Swagger UI:
+http://127.0.0.1:8000/docs
+
+ReDoc:
+http://127.0.0.1:8000/redoc
+
+These pages allow you to test all API endpoints interactively.
+
+🧪 Example Endpoints
+Method	Endpoint	Description
+POST	/students	Create a new student
+GET	/students	Get all students
+GET	/students/{id}	Get a student by ID
+PUT	/students/{id}	Update a student
+DELETE	/students/{id}	Delete a student
+🎯 Learning Goals
 
 This project was built to:
+
 Understand REST APIs and HTTP concepts
+
 Practice backend architecture
+
 Learn database modeling with SQLAlchemy
+
 Apply request/response validation
-Build scalable backend systems with FastAPI #
+
+Build scalable backend systems with FastAPI
+
+🔮 Future Improvements
+
+Authentication & authorization (JWT)
+
+Role-based access (admin, teacher)
+
+Class and subject management
+
+Fee and payment tracking
+
+Unit and integration tests
+
+Deployment to cloud services
+
+👤 Author
+
+Charles Porker
+Backend Developer (Python / FastAPI)
+
+📜 License
+
+This project is for learning and portfolio purposes.
