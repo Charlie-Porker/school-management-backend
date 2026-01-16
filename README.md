@@ -65,7 +65,7 @@ uvicorn app.main:app --reload
 
 📘 API Documentation
 
-Once the server is running, open your browser and visit:
+## Once the server is running, open your browser and visit:
 
 Swagger UI:
 http://127.0.0.1:8000/docs
@@ -73,7 +73,7 @@ http://127.0.0.1:8000/docs
 ReDoc:
 http://127.0.0.1:8000/redoc
 
-These pages allow you to test all API endpoints interactively.
+## These pages allow you to test all API endpoints interactively.
 
 🧪 Example Endpoints
 Method	Endpoint	Description
@@ -83,8 +83,9 @@ GET	/students/{id}	Get a student by ID
 PUT	/students/{id}	Update a student
 DELETE	/students/{id}	Delete a student
 🎯 Learning Goals
+---
 
-This project was built to:
+### This project was built to:
 
 Understand REST APIs and HTTP concepts
 
@@ -96,7 +97,8 @@ Apply request/response validation
 
 Build scalable backend systems with FastAPI
 
-🔮 Future Improvements
+
+##🔮 Future Improvements
 
 Authentication & authorization (JWT)
 
@@ -110,11 +112,11 @@ Unit and integration tests
 
 Deployment to cloud services
 
-👤 Author
+## 👤 Author
 
 Charles Porker
 Backend Developer (Python / FastAPI)
 
-📜 License
+### 📜 License
 
 This project is for learning and portfolio purposes.
