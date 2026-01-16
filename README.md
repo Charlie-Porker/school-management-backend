@@ -51,11 +51,12 @@ backend/
 ```bash
 git clone https://github.com/yourusername/school-management-backend.git
 cd school-management-backend
+```
 
 
-### This project was built to:
-### Understand REST APIs and HTTP concepts
-### Practice backend architecture
-### Learn database modeling with SQLAlchemy
-### Apply request/response validation
-### Build scalable backend systems with FastAPI #
+This project was built to:
+Understand REST APIs and HTTP concepts
+Practice backend architecture
+Learn database modeling with SQLAlchemy
+Apply request/response validation
+Build scalable backend systems with FastAPI #
